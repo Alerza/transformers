@@ -121,7 +121,7 @@ if is_safetensors_available():
 logger = logging.get_logger(__name__)
 
 
-_init_weights = True
+_init_weights = False
 
 
 def is_fsdp_enabled():
